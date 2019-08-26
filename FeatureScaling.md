@@ -6,8 +6,6 @@ Reasons for including Feature Scaling
  - Another reason why feature scaling is applied is that  [gradient descent](https://en.m.wikipedia.org/wiki/Gradient_descent "Gradient descent")  converges much faster with feature scaling than without it.
 
 ## Methods
-
-###   
 Rescaling (min-max normalization)
 
 Also known as min-max scaling or min-max normalization, is the simplest method and consists in rescaling the range of features to scale the range in [0, 1] or [−1, 1]. Selecting the target range depends on the nature of the data. The general formula for a min-max of [0, 1] is given as:
@@ -43,5 +41,5 @@ Another option that is widely used in machine-learning is to scale the component
 In some applications (e.g. Histogram features) it can be more practical to use the L1 norm (i.e. Manhattan Distance, City-Block Length or  [Taxicab Geometry](https://en.m.wikipedia.org/wiki/Taxicab_Geometry "Taxicab Geometry")) of the feature vector. This is especially important if in the following learning steps the Scalar Metric is used as a distance measure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTkyNjU0NTAsMTk0NDAwMTA3OV19
+eyJoaXN0b3J5IjpbNDY2NzI2Mzg5LDE5NDQwMDEwNzldfQ==
 -->
