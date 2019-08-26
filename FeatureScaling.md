@@ -18,11 +18,11 @@ where  $x$ is an original value,  $x'$  is the normalized value. For example, su
 
 To rescale a range between an arbitrary set of values [a, b], the formula becomes:
 
-![{\displaystyle x'=a+{\frac {(x-{\text{min}}(x))(b-a)}{{\text{max}}(x)-{\text{min}}(x)}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/73032b45bffd5e5140483fbe1ed49bf174f1962d)
-$x' = a + (x-min(x))(b-a)/ (max(x) - min(x))$
-where  {\displaystyle a,b}![a,b](https://wikimedia.org/api/rest_v1/media/math/render/svg/181523deba732fda302fd176275a0739121d3bc8)  are the min-max values.
 
-### Mean normalization[Edit](https://en.m.wikipedia.org/w/index.php?title=Feature_scaling&action=edit&section=4 "Edit section: Mean normalization")
+$x' = a + (x-min(x))(b-a)/ (max(x) - min(x))$
+where  $a,b$  are the min-max values.
+
+### Mean normalization
 
 {\displaystyle x'={\frac {x-{\text{average}}(x)}{{\text{max}}(x)-{\text{min}}(x)}}}![{\displaystyle x'={\frac {x-{\text{average}}(x)}{{\text{max}}(x)-{\text{min}}(x)}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/5c591a0eeba163a12f69f937adbae5886d6273db)
 
@@ -45,5 +45,5 @@ Another option that is widely used in machine-learning is to scale the component
 In some applications (e.g. Histogram features) it can be more practical to use the L1 norm (i.e. Manhattan Distance, City-Block Length or  [Taxicab Geometry](https://en.m.wikipedia.org/wiki/Taxicab_Geometry "Taxicab Geometry")) of the feature vector. This is especially important if in the following learning steps the Scalar Metric is used as a distance measure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDAwMTA3OV19
+eyJoaXN0b3J5IjpbNzk1NzAzODk3LDE5NDQwMDEwNzldfQ==
 -->
