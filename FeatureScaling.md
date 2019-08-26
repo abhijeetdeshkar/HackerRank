@@ -1,3 +1,5 @@
+## Feature Scaling
+
 **Feature scaling** is a method used to normalize the range of independent variables or features of data. In [data processing](https://en.m.wikipedia.org/wiki/Data_processing "Data processing"), it is also known as data normalization and is generally performed during the data preprocessing step.
 
 Reasons for including Feature Scaling
@@ -37,5 +39,6 @@ $x'=\frac{x}{\text{\textbardbl}{x}\text{\textbardbl}}$
 In some applications (e.g. Histogram features) it can be more practical to use the L1 norm (i.e. Manhattan Distance, City-Block Length or  [Taxicab Geometry](https://en.m.wikipedia.org/wiki/Taxicab_Geometry "Taxicab Geometry")) of the feature vector. This is especially important if in the following learning steps the Scalar Metric is used as a distance measure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjgwNTgxODcsMTk0NDAwMTA3OV19
+eyJoaXN0b3J5IjpbLTY0NTY0NzU5NiwtMTQ2ODA1ODE4NywxOT
+Q0MDAxMDc5XX0=
 -->
