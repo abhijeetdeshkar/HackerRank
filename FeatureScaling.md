@@ -32,10 +32,10 @@ Where  symbols have usual meanings.
 
 Another option that is widely used in machine-learning is to scale the components of a feature vector such that the complete vector has length one. This usually means dividing each component by the  [Euclidean length](https://en.m.wikipedia.org/wiki/Euclidean_length "Euclidean length")  of the vector:
 
-{\displaystyle x'={\frac {x}{\left\|{x}\right\|}}}![{\displaystyle x'={\frac {x}{\left\|{x}\right\|}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/193f6afc6bbb9d55b1f025ea04a1c833947e1a74)
+$x'=\frac{x}{\text{\textbardbl}{x}\right\|}}$  
 
 In some applications (e.g. Histogram features) it can be more practical to use the L1 norm (i.e. Manhattan Distance, City-Block Length or  [Taxicab Geometry](https://en.m.wikipedia.org/wiki/Taxicab_Geometry "Taxicab Geometry")) of the feature vector. This is especially important if in the following learning steps the Scalar Metric is used as a distance measure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDcxMjE4MTQsMTk0NDAwMTA3OV19
+eyJoaXN0b3J5IjpbLTEyMjA0NjYxMDEsMTk0NDAwMTA3OV19
 -->
