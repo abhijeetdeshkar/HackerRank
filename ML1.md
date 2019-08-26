@@ -32,6 +32,9 @@ we get
  [8, 2],
  [4.5, 1]]
 ```
+Then why do we need 2 separate methods -  **fit**  and  **transform**  ?
+
+In practice we need to have a separate training and testing dataset and that is where having a separate  **fit**  and  **transform**  method helps. We apply  **fit**  on the training dataset and use the  **transform**method on both - the training dataset and the test dataset. Thus the training as well as the test dataset are then transformed(scaled) using the model parameters that were learnt on applying the  **fit**method the training dataset.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDY5MjYyNF19
+eyJoaXN0b3J5IjpbNTA3NjU0Nzc3LC00MTA2OTI2MjRdfQ==
 -->
