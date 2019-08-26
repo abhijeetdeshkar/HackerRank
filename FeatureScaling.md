@@ -13,15 +13,12 @@ $x' = \frac{x-min(x)}{max(x)-min(x)}$
 where  $x$ is an original value,  $x'$  is the normalized value. For example, suppose that we have the students' weight data, and the students' weights span [160 pounds, 200 pounds]. To rescale this data, we first subtract 160 from each student's weight and divide the result by 40 (the difference between the maximum and minimum weights).
 
 To rescale a range between an arbitrary set of values [a, b], the formula becomes:
-
-
 $x' = a + \frac{(x-min(x))(b-a)} {max(x) - min(x)}$
 where  $a,b$  are the min-max values.
 
 ### Mean normalization
 
-{\displaystyle x'={\frac {x-{\text{average}}(x)}{{\text{max}}(x)-{\text{min}}(x)}}}![{\displaystyle x'={\frac {x-{\text{average}}(x)}{{\text{max}}(x)-{\text{min}}(x)}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/5c591a0eeba163a12f69f937adbae5886d6273db)
-
+$x' = \frac{x-average(x)}{max(x) - min(x)}$
 where  {\displaystyle x}![x](https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4)  is an original value,  {\displaystyle x'}![x'](https://wikimedia.org/api/rest_v1/media/math/render/svg/0ac74959896052e160a5953102e4bc3850fe93b2)  is the normalized value. There is another form of the mean normalization which is when we divide by the standard deviation which is also called standardization.
 
 ### Standardization (Z-score Normalization)[Edit](https://en.m.wikipedia.org/w/index.php?title=Feature_scaling&action=edit&section=5 "Edit section: Standardization (Z-score Normalization)")
@@ -41,5 +38,5 @@ Another option that is widely used in machine-learning is to scale the component
 In some applications (e.g. Histogram features) it can be more practical to use the L1 norm (i.e. Manhattan Distance, City-Block Length or  [Taxicab Geometry](https://en.m.wikipedia.org/wiki/Taxicab_Geometry "Taxicab Geometry")) of the feature vector. This is especially important if in the following learning steps the Scalar Metric is used as a distance measure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2NzI2Mzg5LDE5NDQwMDEwNzldfQ==
+eyJoaXN0b3J5IjpbLTM3NzYwMjU4NCwxOTQ0MDAxMDc5XX0=
 -->
