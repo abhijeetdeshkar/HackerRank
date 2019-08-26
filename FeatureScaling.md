@@ -19,7 +19,7 @@ where  $x$ is an original value,  $x'$  is the normalized value. For example, su
 To rescale a range between an arbitrary set of values [a, b], the formula becomes:
 
 
-$x' = a + (x-min(x))(b-a)/ (max(x) - min(x))$
+$x' = a + \frac{(x-min(x))(b-a)} {max(x) - min(x)}$
 where  $a,b$  are the min-max values.
 
 ### Mean normalization
@@ -45,5 +45,5 @@ Another option that is widely used in machine-learning is to scale the component
 In some applications (e.g. Histogram features) it can be more practical to use the L1 norm (i.e. Manhattan Distance, City-Block Length or  [Taxicab Geometry](https://en.m.wikipedia.org/wiki/Taxicab_Geometry "Taxicab Geometry")) of the feature vector. This is especially important if in the following learning steps the Scalar Metric is used as a distance measure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1NzAzODk3LDE5NDQwMDEwNzldfQ==
+eyJoaXN0b3J5IjpbLTYyMTMzMjcwMywxOTQ0MDAxMDc5XX0=
 -->
