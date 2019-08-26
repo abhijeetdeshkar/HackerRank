@@ -35,6 +35,9 @@ we get
 Why do we need 2 separate methods -  **fit**  and  **transform**  ?
 
 In practice we need to have a separate training and testing dataset and that is where having a separate  **fit**  and  **transform**  method helps. We apply  **fit**  on the training dataset and use the  **transform**method on both - the training dataset and the test dataset. Thus the training as well as the test dataset are then transformed(scaled) using the model parameters that were learnt on applying the  **fit**method the training dataset.
+
+This concept is applicable on standard scaler methods also, which makes use of fit/transform methods.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4MTk5OTE4LC00MTA2OTI2MjRdfQ==
+eyJoaXN0b3J5IjpbMTgzMDQ1MDA4NCwyNzgxOTk5MTgsLTQxMD
+Y5MjYyNF19
 -->
