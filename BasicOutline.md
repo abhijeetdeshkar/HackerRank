@@ -3,7 +3,7 @@
  3. Split dataset into training, test set
  4. Preprocess - Impute Missing Data
  5. Preprocess - Feature Scaling
- 6. 
+ 6. Select regressor 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzE3ODA3NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDM5MjQ5NzI3LDczMDk5ODExNl19
 -->
