@@ -25,11 +25,10 @@ where  $x$ is an original value,  $x'$ is the normalized value. There is another
 
 In machine learning, we can handle various types of data, e.g. audio signals and pixel values for image data, and this data can include multiple  [dimensions](https://en.m.wikipedia.org/wiki/Dimensions "Dimensions"). Feature standardization makes the values of each feature in the data have zero-mean (when subtracting the mean in the numerator) and unit-variance. This method is widely used for normalization in many machine learning algorithms e.g.,  support vector machines, Logistic regression and Artificial neural network. The general method of calculation is to determine the distribution  mean and  standard deviation for each feature. Next we subtract the mean from each feature. Then we divide the values (mean is already subtracted) of each feature by its standard deviation.
 
-{\displaystyle x'={\frac {x-{\bar {x}}}{\sigma }}}![x' = \frac{x - \bar{x}}{\sigma}](https://wikimedia.org/api/rest_v1/media/math/render/svg/b0aa2e7d203db1526c577192f2d9102b718eafd5)
-$x' = \frac{x-x}{}$
-Where  {\displaystyle x}![x](https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4)  is the original feature vector,  {\displaystyle {\bar {x}}={\text{average}}(x)}![{\displaystyle {\bar {x}}={\text{average}}(x)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/b60888a84e53fd881586b510340e6ba360936e7c)  is the mean of that feature vector, and  {\displaystyle \sigma }![\sigma ](https://wikimedia.org/api/rest_v1/media/math/render/svg/59f59b7c3e6fdb1d0365a494b81fb9a696138c36)  is its standard deviation.
+$x' = \frac{x-\bar{x}}{\sigma}$
+Where  symbols have usual meanings.
 
-### Scaling to unit length[Edit](https://en.m.wikipedia.org/w/index.php?title=Feature_scaling&action=edit&section=6 "Edit section: Scaling to unit length")
+### Scaling to unit length
 
 Another option that is widely used in machine-learning is to scale the components of a feature vector such that the complete vector has length one. This usually means dividing each component by the  [Euclidean length](https://en.m.wikipedia.org/wiki/Euclidean_length "Euclidean length")  of the vector:
 
@@ -38,5 +37,5 @@ Another option that is widely used in machine-learning is to scale the component
 In some applications (e.g. Histogram features) it can be more practical to use the L1 norm (i.e. Manhattan Distance, City-Block Length or  [Taxicab Geometry](https://en.m.wikipedia.org/wiki/Taxicab_Geometry "Taxicab Geometry")) of the feature vector. This is especially important if in the following learning steps the Scalar Metric is used as a distance measure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDUyNTg1MywxOTQ0MDAxMDc5XX0=
+eyJoaXN0b3J5IjpbLTE0MDcxMjE4MTQsMTk0NDAwMTA3OV19
 -->
