@@ -8,7 +8,8 @@
 
 num= $pi [(x+y)^2 - (y/2)^2]$ = $pi[x^2 + y^2 + 2xy - y^2/4]$
 deno = $pi(y/2)^2$ = $pi[y^2/4]$
-f = $4x^2/y^2$ + 4 
+f = $4x^2/y^2 + 4 + 8x/y - 1$
+ = $4 *(1/9) + 4 + 8/3 -1$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTgyMDIyMiwtOTUwNDQxNjkzXX0=
+eyJoaXN0b3J5IjpbMTM4MTkxMjMwNCwtOTUwNDQxNjkzXX0=
 -->
