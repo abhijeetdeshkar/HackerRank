@@ -6,8 +6,9 @@
  6. Repeat steps 1 to 5 and update the weights after each observation (Reinforcement learning) or Repeat Steps 1 to 5 but update the weights only after a batch of observations. (Batch Learning)
  7. When the whole training set passed through the ANN, that makes an epoch. Redo more epochs.
 
-num= $pi [(x+y)^2 - (y/2)^2]$
-deno = $pi(y/2)^2$
+num= $pi [(x+y)^2 - (y/2)^2]$ = $pi[x^2 + y^2 + 2xy - y^2/4]$
+deno = $pi(y/2)^2$ = $pi[y^2/4]$
+f = $4x^2/y^2$ + 4 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwNjA3OTE3LC05NTA0NDE2OTNdfQ==
+eyJoaXN0b3J5IjpbMTc0NTgyMDIyMiwtOTUwNDQxNjkzXX0=
 -->
